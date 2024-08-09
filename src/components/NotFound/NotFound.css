@@ -1,0 +1,7 @@
+.notFoundBack {
+	color: blue;
+}
+
+.notFoundBack:hover {
+	text-decoration: underline;
+}

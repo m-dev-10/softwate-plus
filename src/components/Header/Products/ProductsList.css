@@ -1,0 +1,23 @@
+.products {
+	max-width: 1310px;
+	padding: 30px 10px;
+	margin: 0 auto;
+}
+.products__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	padding-bottom: 0.75rem;
+}
+
+.products__switch-button {
+	cursor: pointer;
+	color: seagreen;
+	font-size: 18px;
+	transition: all 0.3s ease 0s;
+	margin-bottom: 15px;
+}
+
+.products__switch-button:hover {
+	color: red;
+}

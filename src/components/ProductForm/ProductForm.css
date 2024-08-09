@@ -1,0 +1,56 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	gap: 8px;
+	padding: 16px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: seagreen;
+	max-width: 500px;
+	margin: 0 auto;
+	color: white;
+	margin-top: 30px;
+}
+.form__title {
+}
+.form__item {
+	display: flex;
+	flex-direction: column;
+}
+.form__label {
+}
+.form__input {
+	max-height: 25px;
+	padding: 5px 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.form__button {
+	cursor: pointer;
+	align-self: center;
+	color: #ffffff;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	display: inline-flex;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	background: #f2726f;
+	border-radius: 8px;
+	min-height: 48px;
+	padding: 10px 25px;
+	align-items: center;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+}
+
+.form__button:hover {
+	color: #f2726f;
+	background-color: #fff;
+}

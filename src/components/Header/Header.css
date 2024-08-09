@@ -1,0 +1,29 @@
+.header {
+	width: 100%;
+}
+.header__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70px;
+	position: relative;
+	background-color: #2e8b57;
+}
+.navigation {
+}
+.navigation__items {
+	display: flex;
+	column-gap: 10px;
+}
+.navigation__item {
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+
+.navigation__item:hover {
+	color: red;
+}
+
+.active {
+	color: red;
+}
